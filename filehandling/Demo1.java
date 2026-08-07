@@ -2,7 +2,7 @@ import java.io.*;
 public class Demo1 {
   public static void main(String[] args) {
     try{
-        File file = new File("Sandhaya Rokade");
+        File file = new File("abc.txt");
         if(file.createNewFile()){
             System.out.println("File Created");
         }else{
